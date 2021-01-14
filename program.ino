@@ -37,13 +37,13 @@ void loop()
    lcd.print("Fresh Air");
    Serial.println("Fresh Air ");
   }
-  else if( gas_val>650 && gas_val<=900 ) if the air quality is more than 650 ppm less than 900 ppm
+  else if( gas_val>650 && gas_val<=900 ) //if the air quality is more than 650 ppm less than 900 ppm
   {
    lcd.print(" Poor Air");
    Serial.println(" Poor Air");
    delay(1000);
   }
-  else if(gas_val>=900 ) if the air quality is more than or equal to 900 ppm 
+  else if(gas_val>=900 ) //if the air quality is more than or equal to 900 ppm 
   {
   lcd.print("Very Poor");
   Serial.println("Very Poor"); 
