@@ -39,7 +39,7 @@ When the quality become worse more thsn 900 ppm then it will display that air is
 	if (gas_val<=660) //if the air quality is less than or equal to 660 ppm
         	print("Fresh Air");
 	else if( gas_val>660 && gas_val<=900 ) //if the air quality is more than 660 ppm less than 900 ppm
-      		 print(" Poor Air");
+      	print(" Poor Air");
 	else if(gas_val>=900 ) //if the air quality is more than or equal to 900 ppm 
         	print("Very Poor");
 
